@@ -4,7 +4,6 @@ html {
 
 h1 {
   font-size: 70px;
-  font-weight: bold;
   color: white;
   text-align: center;
 }
@@ -15,15 +14,30 @@ h1 {
 
 ul {
   list-style: none;
-  text-align: center;
+  padding: 0;
 }
 
 li {
   font-size: 18px;
   color: white;
   margin-top: 16px;
+  display: block;
+  text-align: center;
 }
 
 a {
   text-decoration: underline white;
+}
+
+h3 {
+  font-size: 32px;
+  color: black;
+}
+
+.process {
+  text-align: center;
+}
+
+h3 {
+  font-size: 23px;
 }
